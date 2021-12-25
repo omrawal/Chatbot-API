@@ -1,3 +1,3 @@
 # Chatbot-API
 API for Mental Health Bot Chatbot
-Working will be updated soon.
+Dependency for **https://github.com/omrawal/UpbeatBuddy-Chatbot**
