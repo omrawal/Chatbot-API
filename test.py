@@ -7,7 +7,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 model = load_model('chatbot_model.h5')
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('merged_dataset_intents.json').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 
@@ -63,13 +63,24 @@ def getResponse(ints, intents_json):
     return result
 
 
+# intents_Mental_Health_FAQ.json 0.4 confidence
+# dialog_intents.json 0.3 confidence
+# depression_chatbot_intents.json 0.6 confidence
+# chatbot_chitchat_intents.json 0.65 confidence
+
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     # 79% confidence
-    if(float(ints[0]['probability']) > 0.79):
-        print("in accept ")
-        res = getResponse(ints, intents)
-    else:
-        print("in reject ")
+    # print(msg, float(ints[0]['probability']))
+    print(msg, ints)
+    try:
+        if(float(ints[0]['probability']) > 0.4):  # 79
+            print("in accept ")
+            res = getResponse(ints, intents)
+        else:
+            print("in reject ")
+            res = "I didnt get that"
+    except:
+        print("Exception")
         res = "I didnt get that"
     return res
