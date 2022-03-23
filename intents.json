@@ -118,6 +118,40 @@
                 "What did the buffalo say when his son left for college? Bison!",
                 "I invented a new word! Plagiarism!"
             ]
+        },
+        {
+            "tag": "happymood",
+            "patterns": [
+                "I am very happy today",
+                "I am optimistic today",
+                "This is the best day of my life",
+                "I feel optimistic today"
+            ],
+            "responses": [
+                "Definately, as someone rightly said enjoy the journey as it't the journey that matters and not the desination",
+                "Way to go pal, good to know that you are happy, mind sharing the reason of your happiness",
+                "Happiness is contagious you made me happy too"
+            ]
+        },
+        {
+            "tag": "sadmood",
+            "patterns": [
+                "I am very sad today",
+                "I am having a bad day",
+                "This is the worst day of my life",
+                "I feel like dying",
+                "I don't want to live",
+                "I feel like killing myself",
+                "I am good for nothing",
+                "I am useless",
+                "What have I done to deserve this",
+                "Life is totally unfair"
+            ],
+            "responses": [
+                "Hey, don't say that we all got through rough patches in life. That's how life is. Some days you win some days you learn",
+                "Hey, remember every problem no matter how much ever tough it might seem always has a solution you just need to calm down and search for the solution",
+                "Life is a journey and it will definately have some rough days but that's where we are tested and after that we reap the fruits of our hardwork and patience"
+            ]
         }
     ]
 }

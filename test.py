@@ -75,12 +75,15 @@ def chatbot_response(msg):
     print(msg, ints)
     try:
         if(float(ints[0]['probability']) > 0.4):  # 79
-            print("in accept ")
+            print("in accept by probability ")
+            res = getResponse(ints, intents)
+        elif(len(ints) == 1):
+            print("in accept by scarcity ")
             res = getResponse(ints, intents)
         else:
             print("in reject ")
-            res = "I didnt get that"
+            res = "Umm, sorry I coundn't process it. Would you mind changing the words a bit so that I can interpret it correctly. I am not that smart you see."
     except:
         print("Exception")
-        res = "I didnt get that"
+        res = "Umm, sorry I coundn't process it. Would you mind changing the words a bit so that I can interpret it correctly. I am not that smart you see."
     return res
