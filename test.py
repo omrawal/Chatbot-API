@@ -12,9 +12,42 @@ words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 
 
+def numberToLetter(w):
+    new_w = []
+    for i in w:
+        new_i = ""
+        for j in range(0, len(i)):
+            if i[j] == '1':
+                new_i += 'one'
+            elif i[j] == '2':
+                new_i += 'two'
+            elif i[j] == '3':
+                new_i += 'three'
+            elif i[j] == '4':
+                new_i += 'four'
+            elif i[j] == '5':
+                new_i += 'five'
+            elif i[j] == '6':
+                new_i += 'six'
+            elif i[j] == '7':
+                new_i += 'seven'
+            elif i[j] == '8':
+                new_i += 'eight'
+            elif i[j] == '9':
+                new_i += 'nine'
+            elif i[j] == '0':
+                new_i += 'zero'
+            else:
+                new_i += i[j]
+        new_w.append(new_i)
+    return(new_w)
+
+
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
     sentence_words = nltk.word_tokenize(sentence)
+    # change numbers to words
+    sentence_words = numberToLetter(sentence_words)
     # stem each word - create short form for word
     sentence_words = [lemmatizer.lemmatize(
         word.lower()) for word in sentence_words]
@@ -63,27 +96,14 @@ def getResponse(ints, intents_json):
     return result
 
 
-# intents_Mental_Health_FAQ.json 0.4 confidence
-# dialog_intents.json 0.3 confidence
-# depression_chatbot_intents.json 0.6 confidence
-# chatbot_chitchat_intents.json 0.65 confidence
-
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     # 79% confidence
-    # print(msg, float(ints[0]['probability']))
-    print(msg, ints)
-    try:
-        if(float(ints[0]['probability']) > 0.4):  # 79
-            print("in accept by probability ")
-            res = getResponse(ints, intents)
-        elif(len(ints) == 1):
-            print("in accept by scarcity ")
-            res = getResponse(ints, intents)
-        else:
-            print("in reject ")
-            res = "Umm, sorry I coundn't process it. Would you mind changing the words a bit so that I can interpret it correctly. I am not that smart you see."
-    except:
-        print("Exception")
-        res = "Umm, sorry I coundn't process it. Would you mind changing the words a bit so that I can interpret it correctly. I am not that smart you see."
+    print("INTS == ", ints)
+    if(float(ints[0]['probability']) > 0.79):
+        print("in accept ")
+        res = getResponse(ints, intents)
+    else:
+        print("in reject ")
+        res = "I didnt get that"
     return res
