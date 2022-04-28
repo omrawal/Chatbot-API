@@ -201,6 +201,40 @@
             ]
         },
         {
+            "tag": "happymood",
+            "patterns": [
+                "I am very happy today",
+                "I am optimistic today",
+                "This is the best day of my life",
+                "I feel optimistic today"
+            ],
+            "responses": [
+                "Definately, as someone rightly said enjoy the journey as it't the journey that matters and not the desination",
+                "Way to go pal, good to know that you are happy, mind sharing the reason of your happiness",
+                "Happiness is contagious you made me happy too"
+            ]
+        },
+        {
+            "tag": "sadmood",
+            "patterns": [
+                "I am very sad today",
+                "I am having a bad day",
+                "This is the worst day of my life",
+                "I feel like dying",
+                "I don't want to live",
+                "I feel like killing myself",
+                "I am good for nothing",
+                "I am useless",
+                "What have I done to deserve this",
+                "Life is totally unfair"
+            ],
+            "responses": [
+                "Hey, don't say that we all got through rough patches in life. That's how life is. Some days you win some days you learn",
+                "Hey, remember every problem no matter how much ever tough it might seem always has a solution you just need to calm down and search for the solution",
+                "Life is a journey and it will definately have some rough days but that's where we are tested and after that we reap the fruits of our hardwork and patience"
+            ]
+        },
+        {
             "tag": "what are the top causes of depression?",
             "patterns": [
                 "what are the top causes of depression?"
@@ -381,45 +415,45 @@
             ]
         },
         {
-            "tag": "how can we reduce anxiety?",
+            "tag": "how can we reduce anxiety ?",
             "patterns": [
-                "how can we reduce anxiety?"
+                "how can we reduce anxiety ?"
             ],
             "responses": [
                 "3 3 3 rule is the best method to reduce anxiety.in this method you have to mentally note\u00a0three\u00a0things you see,\u00a0three\u00a0sounds you hear, and then move\u00a0three\u00a0parts of your body. this exercise can help your mind refocus on something else."
             ]
         },
         {
-            "tag": "i am lonely!",
+            "tag": "i am lonely !",
             "patterns": [
-                "i am lonely!"
+                "i am lonely !"
             ],
             "responses": [
                 "you are never lonely if you look around carefully you will find people who care for you and would love to have your company. besides if you are feeling lonely literally i suggest you watch a horror movie then you won't feel lonely anymore. ;)"
             ]
         },
         {
-            "tag": "no one likes me!",
+            "tag": "no one likes me !",
             "patterns": [
-                "no one likes me!"
+                "no one likes me !"
             ],
             "responses": [
                 "you really think that? i'd suggest you try helping someone who really needs your help you'll straight up get a person to like you just by being nice. kindness is the best gift you can offer to anyone :)"
             ]
         },
         {
-            "tag": "i think i am ugly!",
+            "tag": "i think i am ugly !",
             "patterns": [
-                "i think i am ugly!"
+                "i think i am ugly !"
             ],
             "responses": [
                 "well do you really think that? would you like to see the most beautiful face ever? open your webcam and voila, the prettiest face on this planet magically appears."
             ]
         },
         {
-            "tag": "i am good for nothing!",
+            "tag": "i am good for nothing !",
             "patterns": [
-                "i am good for nothing!"
+                "i am good for nothing !"
             ],
             "responses": [
                 "your perception of how good you are, will never be accurate. if you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. carpe diem! my friend."
@@ -435,9 +469,9 @@
             ]
         },
         {
-            "tag": "i hate myself!",
+            "tag": "i hate myself !",
             "patterns": [
-                "i hate myself!"
+                "i hate myself !"
             ],
             "responses": [
                 "when god was creating the universe he gave humans the power to think and the contemplate, so that we can understand the world and make it a better place. god did not give you brains to hate yourself, it wuld be wiser to love yourself and show god that you are serving the purpose for which you were sent."
@@ -534,18 +568,18 @@
             ]
         },
         {
-            "tag": "i want to leave the cou ntry and run away",
+            "tag": "i want to leave the country and run away",
             "patterns": [
-                "i want to leave the cou ntry and run away"
+                "i want to leave the country and run away"
             ],
             "responses": [
                 "why do you want to spend so much on this thought, i think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."
             ]
         },
         {
-            "tag": "i let everyojokne down",
+            "tag": "i let everyone down",
             "patterns": [
-                "i let everyojokne down"
+                "i let everyone down"
             ],
             "responses": [
                 "if you are the one who let them down you were the one who raised there hopes in the first place.if you have done it once i can guarantee you can do it over and over again."
