@@ -74,7 +74,7 @@ def chatbot_response(msg):
     # print(msg, float(ints[0]['probability']))
     print(msg, ints)
     try:
-        if(float(ints[0]['probability']) > 0.4):  # 79
+        if(float(ints[0]['probability']) > 0.79):  # 79
             print("in accept by probability ")
             res = getResponse(ints, intents)
         elif(len(ints) == 1):
