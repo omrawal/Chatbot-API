@@ -105,7 +105,8 @@ hist3 = model2.fit(X_train, y_train,
                    epochs=1500, batch_size=64, verbose=1,
                    callbacks=[earlystop]
                    )
-# Model has 93.22% accuracy at patience = 100
+
+# Model has 93.22% accuracy at patience = 150 loss 19.78
 # Saving accuracy
 model2.save('chatbot_model.h5', hist3)
 print("model created")
