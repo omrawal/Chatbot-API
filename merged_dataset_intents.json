@@ -60,8 +60,8 @@
                 "Tell me about yourself!"
             ],
             "responses": [
-                "Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
-                "Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+                "Love that question! My name's Upbeat Buddy, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+                "Hey! I love that question! My name is Upbeat Buddy, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
             ]
         },
         {
@@ -10538,15 +10538,6 @@
             ]
         },
         {
-            "tag": "9100298",
-            "patterns": [
-                "How can I maintain social connections? What if I feel lonely?"
-            ],
-            "responses": [
-                "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. \n While you may be physically separated from friends, family members, and other loved ones, it has never been more important to maintain those social connections. Social connections are an opportunity to seek and share support, talk through difficult feelings, share a laugh, keep up-to-date with loved ones, and help each other cope. This pandemic is a lot for one person to deal with on their own. While measures like physical distancing and self-isolation are necessary to slow the spread of the virus, the physical separation can amplify a lot of challenging emotions like loneliness and fear. \n Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. \n Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. \n The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. \n Everyone feels lonely at times'maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. \n Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. \n Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. \n Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone. To find community services in BC, call or text 211 or visit www.bc211.ca. \n If you need extra support, you can talk with a psychologist or counsellor for free: \n You can access a free phone call with a Registered Psychologist though the Covid-19 Psychological Support Service from the BC Psychological Association. Visit www.psychologists.bc.ca/covid-19-resources. \n You can access free, phone-based, short-term support with a counsellor from a new group called the BC COVID-19 Mental Health Network. Email bccovidtherapists@gmail.com to receive an appointment time. \n For youth people ages 12-24, you can talk with a counsellor for free through Foundry Virtual. Visit foundrybc.ca/get-support/virtual/. \n Call the BC Mental Health Support Line at 310-6789. It's available 24/7. \n Chat online with a Crisis Center volunteer at www.crisiscentrechat.ca (daily between noon and 1:00am) \n For older adults: Call the Seniors Distress Line at 604-872-123 \n For youth and young adults: Chat online with a volunteer at www.YouthinBC.com (daily between noon and 1:00am) \n For children and youth: Call the Kids Help Phone at 1-800-668-6868 or visit kidshelpphone.ca \n For tips on managing loneliness, check out the following resources: \n Coping with Loneliness from the Canadian Mental Health Association: cmha.bc.ca/documents/coping-with-loneliness/ \n Loneliness and Social Connection issue of Visions Journal at www.heretohelp.bc.ca/visions/loneliness-and-social-connection-vol14 \n Wellness Module 3: Social Support at www.heretohelp.bc.ca/wellness-module/wellness-module-3-social-support"
-            ]
-        },
-        {
             "tag": "2884887",
             "patterns": [
                 "How can I take care of my physical health?"
@@ -10600,33 +10591,7 @@
                 "To find a family doctor (general physician), visit the College of Physicians and Surgeons of BC to use their Find a Physician tool. You can also see a family doctor at a local walk-in clinic, though it's helpful to find a regular doctor if you have ongoing care needs. You can also find a psychiatrist through the College of Physicians and Surgeons of BC. Be aware that you almost always need a doctor's referral to see a psychiatrist. \n You can find a registered psychologist through the BC Psychological Association and the College of Psychologists of BC. \n To find a clinical counsellor, visit the BC Association of Clinical Counsellors. \n For more on the differences between these service providers, see the article The Right Path for You: Finding your way to and through services in BC from the Finding the Right Help ' Navigating the System issue of Visions Journal."
             ]
         },
-        {
-            "tag": "2612846",
-            "patterns": [
-                "How can I see a psychiatrist?"
-            ],
-            "responses": [
-                "A psychiatrist is a specialist doctor. In BC, you need to ask your doctor for a referral. If you don't see a regular family doctor, you can ask any doctor at a walk-in clinic for a referral. \n In some cases, you may be able to 'self-refer' or make an appointment with a mental health program yourself, but that may not get you access to a psychiatrist. Contact your local mental health centre to see what's available in your area. You can search for mental health centres at www.gov.bc.ca/mentalhealth. If you need help finding your local mental health centre, call HealthlinkBC at 811 or visit www.healthlinkbc.ca and use the Find Health Service tool."
-            ]
-        },
-        {
-            "tag": "3166337",
-            "patterns": [
-                "How can I see a psychologist?"
-            ],
-            "responses": [
-                "To find a Registered Psychologist, visit the BC Psychological Association. You can make an appointment on your own. You don't need a doctor's referral to see a psychologist. \n Registered Psychologists are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits or Employee (Family) Assistance Programs may cover some costs. Some psychologists offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. \n If you want to learn more about lower-cost options to access counselling (though not usually by Registered Psychologists), email us with your location and our information and referrals team can see what options there may be in your community. \n If you see a Registered Psychologist through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more."
-            ]
-        },
-        {
-            "tag": "7009409",
-            "patterns": [
-                "How can I see a counsellor?"
-            ],
-            "responses": [
-                "You can find directories of counsellors through their professional organizations. \n Registered Clinical Counsellors: visit the BC Association of Clinical Counsellors \n Canadian Certified Counsellors: visit the Canadian Counselling and Psychotherapy Association \n Canadian Professional Counsellors: visit the Canadian Professional Counsellors Association \n For more specialized counselling professionals, such as Marriage and Family Therapists, see the Federation of Associations for Counselling Therapists in British Columbia. \n You can make an appointment on your own. You don't need a doctor's referral to see a counsellor. \n Counsellors are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits, Employee (Family) Assistance Programs, or private health insurance plans may help cover some costs. Some counsellors may offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. \n Learn more about lower-cost options to access counselling or email us with your location and our information and referrals team can see what options there may be in your community. \n If you see a counsellor through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more. \n Indigenous community members can access some counselling services locally or through the First Nations Health Authority. Contact your local Band or local Friendship Centre, or contact the First Nations Health Authority."
-            ]
-        },
+        
         {
             "tag": "9630578",
             "patterns": [
@@ -10724,15 +10689,6 @@
             ],
             "responses": [
                 "Provincial income assistance has three income levels: basic assistance (also called welfare), Persons with Disabilities benefits (PWD), and the Persons with Persistent and Multiple Barriers to employment benefits (PPMB). All are administered by the Ministry of Social Development and Social Inclusion. Depending on the situation, mental illness may considered under PWD or PPMB. Addictions may not be included in PPMB applications. \n PWD benefits are for people who have a disability that prevents them from working or going about their daily activities. Find information from the Ministry and read a fact sheet from the Disability Alliance of BC with information about the application process. \n PPMB benefits are for people who experience multiple barriers to work. Find information from the Ministry and read a fact sheet from the Disability Alliance of BC with information about the application process. \n The Disability Alliance of BC (formerly the BC Coalition of People with Disabilities) and help you navigate PWD and PPMB programs as well as Canada Pension Plan benefits. They have in-depth information on preparing your application, working through the application process, and handling appeals. PovNet can also connect you with an advocate to help you through the application process. \n For more on provincial PWD benefits and advocacy tips, see Getting By on Social Assistance: Navigating the 'welfare' system or read other articles in our Income issue of Visions Journal."
-            ]
-        },
-        {
-            "tag": "5981663",
-            "patterns": [
-                "What is MSP?"
-            ],
-            "responses": [
-                "MSP stands for Medical Services Plan. It's a health insurance program managed by the government for people who live in British Columbia, Canada. MSP pays for things like doctor's appointments, appointments with specialist doctors like psychiatrists, and hospital stays you need to treat a medical problem. \n Everyone who lives in BC must enroll in MSP. You pay a monthly fee based on your income. Some workplaces cover the costs of MSP fees for you. \n Learn more about MSP here. If you have questions about applying for or managing your MSP coverage, call Health Insurance BC at 604 683-7151 in the Lower Mainland or 1-800-663-7100 in the rest of BC. They are open Monday ' Friday from 8.00am ' 4.30pm. You can also get help in person at your local Service BC office. \n If you are new to BC, you have to wait three months before registering for MSP. \n Bring your Care Card or BC Services Card with you when you go to medical appointments or use the pharmacy."
             ]
         },
         {

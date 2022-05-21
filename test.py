@@ -71,7 +71,6 @@ def getResponse(ints, intents_json):
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     # 79% confidence
-    # print(msg, float(ints[0]['probability']))
     print(msg, ints)
     try:
         if(float(ints[0]['probability']) > 0.79):  # 79
